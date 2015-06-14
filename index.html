@@ -2,6 +2,7 @@
 <html>
 <head lang="ru">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
     <link rel="stylesheet" href="/css/style.min.css"/>
     <link rel="stylesheet" href="/css/owl.carousel.css"/>
     <script src="/js/jquery-2.1.4.min.js"></script>
@@ -12,26 +13,49 @@
 </head>
 <body>
     <header>
-        <a class="logo" href="/">
-            <img src="/img/logo.png" alt=""/>
-        </a>
-        <div class="user-block">
-            <span>Hi Samantha <i class="icon-down"></i></span>
-            <div class="dropdown">
+        <div class="desktop">
+            <a class="logo" href="/">
+                <img src="/img/logo.png" alt=""/>
+            </a>
+            <div class="user-block">
+                <span>Hi Samantha <i class="icon-down"></i></span>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="#">Some Link</a></li>
+                        <li><a href="#">Some Link 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-block">
                 <ul>
-                    <li><a href="#">Some Link</a></li>
-                    <li><a href="#">Some Link 2</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">interests</a></li>
+                    <li><a href="#">deals</a></li>
+                    <li><a href="#">info</a></li>
+                    <li><a href="#"><i class="icon-search"></i></a></li>
                 </ul>
             </div>
         </div>
-        <div class="right-block">
-            <ul>
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">interests</a></li>
-                <li><a href="#">deals</a></li>
-                <li><a href="#">info</a></li>
-                <li><a href="#"><i class="icon-search"></i></a></li>
-            </ul>
+        <div class="mobile">
+            <div class="small-logo">
+                <img src="/img/logosmt.png" alt="/"/>
+                <i class="icon-down"></i>
+            </div>
+            <div class="main-logo">
+                <img src="/img/moblogo.png" alt=""/>
+            </div>
+            <div class="right-block-mobile">
+                <img src="/img/bars.png" alt=""/>
+            </div>
+            <div class="sub-block" style="width: 100%">
+                <ul>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">interests</a></li>
+                    <li><a href="#">deals</a></li>
+                    <li><a href="#">info</a></li>
+                    <li><a href="#"><i class="icon-search"></i></a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <nav>
@@ -44,14 +68,14 @@
             <li>
                 <a href="#">
                     <p>from</p>
-                    <div><i class="icon icon-airplane"></i> REYKJAVIK</div>
+                    <div><i class="icon icon-airplane"></i> <span>REYKJAVIK</span></div>
                     <div><i class="icon-down"></i></div>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <p>to</p>
-                    <div><i class="icon icon-palm"></i> costa del sol</div>
+                    <div><i class="icon icon-palm"></i> <span>costa del sol</span></div>
                     <div><i class="icon-down"></i></div>
                 </a>
             </li>
@@ -71,8 +95,8 @@
             </li>
             <li>
                 <a href="#">
-                    <p>from</p>
-                    <div><i class="icon icon-airplane"></i> REYKJAVIK</div>
+                    <p>with</p>
+                    <div><i class="icon icon-people"></i> <span>James</span></div>
                     <div><i class="icon-down"></i></div>
                 </a>
             </li>
